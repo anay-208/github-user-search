@@ -47,7 +47,7 @@ async function displayRepos(user, page){
             //Fetch tags for each repo
             return fetch(tags_url, {
     // headers: {
-    //   Authorization: `token ghp_tokenhere`, // Add a token for increased rate limit
+    //   Authorization: `token ${token}`, // Add a token for increased rate limit
     // },
             })
             .then((response) => {
